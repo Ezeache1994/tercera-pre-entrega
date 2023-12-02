@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=Caveat:wght@700&family=DynaPuff&family=Heebo:wght@900&family=Kanit:wght@700&family=Merriweather:ital,wght@1,900&family=Permanent+Marker&family=Roboto:ital,wght@1,700;1,900&family=Urbanist:wght@100&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@700&family=Heebo:wght@900&family=Kanit:wght@700&family=Merriweather:ital,wght@1,900&family=Roboto:ital,wght@1,700;1,900&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Roboto:ital,wght@1,700&display=swap');
+
+//variables
+$color-del-header: #02cf69;
+$color-redes-sociales:white;
+$color-text-shadow:1.15px 1.15px 1px black;
+$fuentes-especiales-para-titulos-grandes:60px;
+$fuente-para-h1:35px;
+$fuente-para-h2:32px;
+$fuente-para-h3:28px;
+$fuente-para-h4:25px;
+$fuente-para-h5:22px;
+$fuente-para-p:17px;
+$estilo-fuente-titulos-grandes:verdana;
+$estilos-fuentes-para-h1:arial;
+$estilos-fuentes-de-h2-h5:serif;
+$border-textos-col-6:3px solid black;
+$border-suaves:1.25px outset grey;
+$border-none:none none white;
+$color-para-parrafo:black;
+
+//selector universal
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;    
+    text-decoration: none !important;
+}
+
+//uso de variables
+
+header{
+    background-color:white;
+    
+}
+
+.navbar-brand{
+    color:$color-redes-sociales;
+    font-family:DynaPuff;
+    font-size:40px !important;
+    letter-spacing: -3.6px;
+    text-shadow: $color-text-shadow;
+    color: #02cf69 !important;    
+    span{
+        color: #10806f;
+    }
+}
+
+.nav-item{
+    text-transform: uppercase;
+    
+
+    .nav-link{
+        color: #037362 !important;
+        font-family: Anton;
+        letter-spacing:2px ;
+        -o-transition: 0.80s;
+        -webkit-transition: 0.80s;
+        -moz-transition: 0.80s;
+        -ms-transition: 0.80s;
+        transition: 0.80s;
+        -o-transform: scale(0.85);
+        -webkit-transform: scale(0.85);
+        -moz-transform: scale(0.85);
+        -ms-transform: scale(0.85);
+        transform: scale(0.85);
+}   
+
+    
+.nav-link:hover{
+    -o-transition: 0.80s;
+    -webkit-transition: 0.80s;
+    -moz-transition: 0.80s;
+    -ms-transition: 0.80s;
+    transition: 0.80s;
+    color: #02cf69 !important;
+    background-color: #28282821;
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -o-transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+} 
+}
+
+main{
+    font-size:$fuente-para-p;
+    color: $color-para-parrafo;
+}
+
+.datos-recaudaciones{
+    justify-content:space-around;
+    
+}
+
+.banner-secundario{
+    color: #282828;
+}
+
+.datos-recaudaciones .datos-de-cada-recaudacion{
+    border:$border-suaves;
+    width: 33.33%;
+    box-shadow:1px 1px 5px gray;   
+    h5{
+        color: #037362;
+    }
+    P{
+        color:#656969;
+        text-shadow: 0.55px 0.55px 0.50px #656969;
+    }
+}
+
+.contenedor-background-con-texto{
+    width: 100%;
+}
+
+.contenedor-de-background{
+    background-image: url(../imagenes/banner-imagenes/background-banner.jpg);
+    background-position:center ;
+    background-size:cover ;
+    background-repeat:no-repeat ;
+    width: 100%;
+    height:1000px ;
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;  
+    background-attachment: fixed;  
+    h1{
+        font-size: $fuentes-especiales-para-titulos-grandes;
+        color: white;
+        font-family:Anton;
+        text-transform: uppercase;
+        word-spacing: 15px;
+        letter-spacing:3px ;        
+    }
+}
+
+.separador-de-background{    
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -35px;
+    h4{
+        color: #697a78;
+        text-transform: uppercase;
+        font-family: $estilos-fuentes-de-h2-h5;
+    }
+}
+
+.background-2{
+    background-image: url(../imagenes/galeria-de-imagenes/mujer-verde-esmeralda-5.png);    
+    height:960px ;
+    justify-content: center;
+    background-attachment:initial ;
+
+    .el-empezar-a-donar-h3{
+        font-size: $fuentes-especiales-para-titulos-grandes;
+        color: rgba(253, 252, 252, 0.623) !important;
+    }
+    button{
+        font-size: $fuente-para-h1;
+        -o-transition: 0.98s;
+        -webkit-transition: 0.98s;
+        -moz-transition: 0.98s;
+        -ms-transition: 0.98s;
+        transition: 0.98s;
+        -o-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+    button:hover{
+        background-color: rgba(255, 255, 255, 0.623);
+        color:#037362 !important ;
+        -o-transition: 0.98s;
+        -webkit-transition: 0.98s;
+        -moz-transition: 0.98s;
+        -ms-transition: 0.98s;
+        transition: 0.98s;
+        -o-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        text-transform: uppercase;
+}
+}
+
+.boton-index{
+    width: 150px;
+    -o-border-radius:60px ;
+    -webkit-border-radius:60px ;
+    -moz-border-radius:60px ;
+    -ms-border-radius:60px ;
+    border-radius:60px ;
+    background-color: transparent;
+    border:solid rgba(255, 255, 255, 0.623) 3px ;
+    color: white;
+}
+
+footer{
+    margin-bottom: 50px;
+    .contenedor-de-logo-y-de-h1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .derecho-reservados{
+        font-family: $estilos-fuentes-de-h2-h5;
+        font-size: $fuente-para-h3;
+    }
+    .contactate-footer{        
+        height:120px ;
+    }
+    .texto-contactate-footer{
+        margin-top: 15px;
+        color:#037362;
+        font-family:$estilo-fuente-titulos-grandes;        
+    }
+.el-button{
+    width: 320px;
+    background: transparent;
+    border:#037362 3px solid;
+    -o-border-radius:50px ;
+    -webkit-border-radius:50px ;
+    -moz-border-radius:50px ;
+    -ms-border-radius:50px ;
+    border-radius:50px ;
+    font-size: $fuente-para-h2;
+    color:#037362;
+    -o-transition: 0.95s;
+    -webkit-transition: 0.95s;
+    -moz-transition: 0.95s;
+    -ms-transition: 0.95s;
+    transition: 0.95s;
+    -o-transform: scale(0.80);
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    transform: scale(0.98);
+}
+
+
+
+.el-button:hover{
+    background-color: #037362;
+    color: white;
+    font-size: $fuente-para-h5;
+    -o-transition: 0.95s;
+    -webkit-transition: 0.95s;
+    -moz-transition: 0.95s;
+    -ms-transition: 0.95s;
+    transition: 0.95s;
+    -o-transform: scale(0.80);
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    transform: scale(0.98);
+}
+}
+
+.logos-redes-sociales{
+    color:$color-redes-sociales;
+    text-shadow: $color-text-shadow;
+    font-size: 28px;
+    color:#12a58f;
+}
+.logo-verde-claro{
+    color: #02cf69 !important;
+}
+
+footer .background-de-logo{
+    background-image: url(../imagenes/logo/HaloGive.png);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.logo-de-footer-2{
+    background-image: url(../imagenes/logo/Anirca.png) !important;
+}
+
+.h1-del-footer{
+    margin-top:50px ;
+    display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+height: 92px;
+
+h1{
+    line-height: 50px;
+    font-family: $estilos-fuentes-de-h2-h5;
+    font-size: $fuentes-especiales-para-titulos-grandes;
+}
+}
+
+.gran-contenedor-banner{
+    display: flex;
+    margin-top: 50px;
+    font-family:$estilos-fuentes-para-h1;
+    
+}
+
+.info-contacto{    
+    -o-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    border-radius: 50px;
+    color: black;    
+    width: 90%;  
+}
+
+// aqui-termina-la-pagina-de-index-y-empieza-la-pagina-de-contacto-------------------------------------------------------
+
+
+
+.banner-de-contacto{
+background-image: url(../imagenes/banner-imagenes/banner-contacto.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 370px;
+    background-attachment:fixed;
+    align-items: center;
+    word-spacing: 20px;
+    justify-content: center;
+    margin-bottom: 170px;
+}
+
+
+.inputs-1{
+    background-image: url(../imagenes/background/eze.ache1994_Make_a_background_of_emerald_green_and_white_it_lo_b35262b5-2ed1-4e15-a6c0-2849eb1483ae.png);
+    -o-border-radius:35px ;
+    -webkit-border-radius:35px ;
+    -moz-border-radius:35px ;
+    -ms-border-radius:35px ;
+    border-radius:35px ;
+}
+
+
+
+.contenedor-de-inputs{
+    width: auto;
+    font-size: 18px;
+
+    .el-button-contacto
+    {
+        color:black !important;
+        -o-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        border-radius: 50px;
+        
+}
+
+    .el-button-contacto{
+        width: 80px;
+        background-color:#282828 !important;        
+        color: #f7f8f8 !important;
+        -o-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        border-radius: 50px;  
+        font-size: 18px;  
+}
+
+.cuadro-texto{
+    -o-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    border-radius: 50px;
+}
+
+}
+
+.contenedores-card-inputs{
+    justify-content: center;
+    display: flex;
+    
+}
+
+.cuadro-texto{
+    margin-top: 30px;
+}
+
+.imagen-costado{
+    background-image: url(../imagenes/galeria-de-imagenes/mujer-verde-esmeralda-3.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    -o-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    
+
+
+    .contenedor-agradecimiento-contacto{
+        height: 380px;
+        align-items: center;
+    }
+
+
+    .texto-contacto-imagen{
+        width: 100%;
+        color: rgba(255, 255, 255, 0.432) !important;
+    }
+}
+
+
+.maps{
+    .el-maps{
+        height: 570px;
+        -o-border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        border-radius: 30px;
+        border: black solid 1.3;
+}
+}
+
+// aqui termina la pagina de contacto-------------------------------------------------------------------------------------
+
+.banner-pre-imagen{
+    border: #02cf69 solid 3px;
+    -o-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.banner-area-de-donar{
+    background-image: url(../imagenes/banner-imagenes/CHART-BACKGROUND.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.gran-seccion{
+    border-right: 1px solid black;
+
+}
+
+
+
+.gran-contenedor-col{
+    margin-top: 100px;
+}
+
+.articulo-de-iniciativa-inversion{
+    margin-top: 50px;
+}
+
+.imagen-de-la-iniciativa{
+    background-image: url(../imagenes/galeria-de-imagenes/galeria-de-imagenes-ia/donas-1.png);
+    background-position: center;
+    background-size: cover;
+    height: 490px;    
+}
+
+.imagen-de-la-iniciativa-2{
+    background-image: url(../imagenes/galeria-de-imagenes/galeria-de-imagenes-ia/Peluqueros.png);
+}
+
+.imagen-de-la-iniciativa-3{
+    background-image: url(../imagenes/galeria-de-imagenes/galeria-de-imagenes-ia/Diseñador-free-lancer.png);
+}
+
+.mini-iniciativa-2{
+margin-top: 50px;
+}
+.mini-iniciativa-3{
+    margin-top: 50px;
+}
+
+.imagen-de-mini-iniciativa{
+    background-position: center;
+    background-size: cover;
+    height: 180px;     
+    background-repeat: no-repeat; 
+    
+}
+
+.img-mini-iniciativa-1{
+    background-image: url(../imagenes/galeria-de-imagenes/galeria-de-imagenes-ia/dueño-verduleria.webp);
+    height: 380px;
+}
+
+.iconos-interaccion{
+    font-size: 30px !important;
+}
+
+.img-mini-iniciativa-2{
+    background-image: url(../imagenes/galeria-de-imagenes/galeria-de-imagenes-ia/Tatuador.png) !important;  
+    height: 380px;
+}
+
+.img-mini-iniciativa-3{
+    background-image: url(../imagenes/galeria-de-imagenes/galeria-de-imagenes-ia/guitarrista.webp);
+    height: 380px;
+}
+
+.boton-imagenes-mini{
+    background-color: transparent;
+    border: none;
+    -o-transform: scale(0.98);
+    -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    transform: scale(0.98);
+    -o-transition: 0.98s;
+    -webkit-transition: 0.98s;
+    -moz-transition: 0.98s;
+    -ms-transition: 0.98s;
+    transition: 0.98s;
+    width: 280px;
+}
+.boton-imagenes-mini:hover{ background-color: #02cf6931; 
+    -o-transform: scale(0.98); -webkit-transform: scale(0.98); 
+    -moz-transform: scale(0.98); -ms-transform: scale(0.98); 
+    transform: scale(0.98); -o-transition: 0.98s; 
+    -webkit-transition: 0.98s; -moz-transition: 0.98s; 
+    -ms-transition: 0.98s; 
+    transition: 0.98s; 
+    width: 280px;
+    -o-border-radius:50px ;
+    -webkit-border-radius:50px ;
+    -moz-border-radius:50px ; 
+    -ms-border-radius:50px ; 
+    border-radius:50px ;
+    text-transform: uppercase;
+}
+
+// fin pagina de ivertir o donacion---------------------------------------------------------------------
+
+.texto-enlaces{
+    color: black !important;
+}
+
+.iconos-para-inversion{
+    font-size: 40px;
+    color: black;
+}
+
+// fin de pagina impacto------------------------------------------------------------------------------------
+
+.parrafo-suelto-impacto{
+    text-align: justify;
+}
+
+
+// las-medias-queries
+
+@media screen and  (min-width:728px) {
+    .img-mini-iniciativa-1{
+        height: 380px;
+
+    }
+    .img-mini-iniciativa-2{
+        height: 380px;
+
+    }
+    .mini-articulo-1{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and  (min-width:320px) and (max-width:880px) {
+    .imagen-costado{
+        width: 100%;
+        padding: 0%;
+
+    }
+
+    // .imagen-de-mini-iniciativa{
+    //     width: 70%;
+    // }
+
+    .gran-contenedor-de-imagen-y-formulario{
+
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:550px){
+    .gran-seccion{
+        border-right: none;
+    }
+
+}
+
+@media screen and (min-width:549px) and (max-width:780px){
+    .imagen-de-la-iniciativa{
+        width: 100 vph !important;
+    }
+}
