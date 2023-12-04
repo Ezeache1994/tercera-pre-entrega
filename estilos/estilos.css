@@ -505,9 +505,54 @@ footer .background-de-logo {
   color: black;
 }
 
+.boton-de-impacto {
+  background-color: transparent;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 150px;
+  font-family: arial;
+  font-size: 17px;
+  transform: scale(0.98);
+  -webkit-transform: scale(0.98);
+  -moz-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  -o-transform: scale(0.98);
+  transition: 0.98s;
+  -webkit-transition: 0.98s;
+  -moz-transition: 0.98s;
+  -ms-transition: 0.98s;
+  -o-transition: 0.98s;
+}
+
+.boton-de-impacto:hover {
+  background-color: #037362;
+  transform: scale(0.98);
+  -webkit-transform: scale(0.98);
+  -moz-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  -o-transform: scale(0.98);
+  transition: 0.98s;
+  -webkit-transition: 0.98s;
+  -moz-transition: 0.98s;
+  -ms-transition: 0.98s;
+  -o-transition: 0.98s;
+}
+
 .carousel-inner {
   width: 100%;
   height: 570px;
+}
+
+.texto-impacto-superior {
+  font-size: 32px;
+}
+
+.parrafo-superior-impacto {
+  font-size: 22px;
+  font-style: verdana;
 }
 
 .imagenes-impacto {
