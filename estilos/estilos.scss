@@ -198,7 +198,7 @@ main{
 }
 
 .boton-index{
-    width: 150px;
+    
     -o-border-radius:60px ;
     -webkit-border-radius:60px ;
     -moz-border-radius:60px ;
@@ -207,6 +207,35 @@ main{
     background-color: transparent;
     border:solid rgba(255, 255, 255, 0.623) 3px ;
     color: white;
+    font-size: 50px;
+    -o-transition: 0.98s;
+    -webkit-transition: 0.98s;
+    -moz-transition: 0.98s;
+    -ms-transition: 0.98s;
+    transition: 0.98s;
+    -o-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    
+}
+
+.boton-index:hover{
+    background-color: rgba(255, 255, 255, 0.432);
+    color: #037362;
+    -o-transition: 0.98s;
+    -webkit-transition: 0.98s;
+    -moz-transition: 0.98s;
+    -ms-transition: 0.98s;
+    transition: 0.98s;
+    -o-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+
+
 }
 
 footer{
@@ -563,38 +592,38 @@ margin-top: 50px;
 
 .boton-de-impacto{
     background-color: transparent;
-    border-radius: 10px;
+    -o-border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 10px;
     width: 150px;
     font-family: $estilos-fuentes-para-h1;
     font-size: 17px;
-    transform: scale(0.98);
+    -o-transform: scale(0.98);
     -webkit-transform: scale(0.98);
     -moz-transform: scale(0.98);
     -ms-transform: scale(0.98);
-    -o-transform: scale(0.98);
-    transition: 0.98s;
+    transform: scale(0.98);
+    -o-transition: 0.98s;
     -webkit-transition: 0.98s;
     -moz-transition: 0.98s;
     -ms-transition: 0.98s;
-    -o-transition: 0.98s;
+    transition: 0.98s;
 }
 
 .boton-de-impacto:hover{
     background-color: #037362;
-    transform: scale(0.98);
+    -o-transform: scale(0.98);
     -webkit-transform: scale(0.98);
     -moz-transform: scale(0.98);
     -ms-transform: scale(0.98);
-    -o-transform: scale(0.98);
-    transition: 0.98s;
+    transform: scale(0.98);
+    -o-transition: 0.98s;
     -webkit-transition: 0.98s;
     -moz-transition: 0.98s;
     -ms-transition: 0.98s;
-    -o-transition: 0.98s;
+    transition: 0.98s;
 }
 
 // fin de pagina impacto------------------------------------------------------------------------------------
@@ -619,11 +648,11 @@ margin-top: 50px;
     height: 280px;
     background-position: center;
     background-size: cover;
-    border-radius: 25px;
+    -o-border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
-    -o-border-radius: 25px;
+    border-radius: 25px;
 }
 
 .imagen-maria-guevara{
@@ -638,9 +667,19 @@ margin-top: 50px;
 
 // principio seccion de testimonio y ultima pagina
 
+.imagen-con-testimonio{
+margin: 50px 0px 50px 0px;
+}
 
+// los mixin
 
+@mixin border(){ border-radius:30px ; -webkit-border-radius:30px ; -moz-border-radius:30px ; -ms-border-radius:30px ; -o-border-radius:30px ;
+border: black 2px solid;
+}
 
+.imagen-con-testimonio img{
+    @include border()
+}
 
 // las-medias-queries
 
