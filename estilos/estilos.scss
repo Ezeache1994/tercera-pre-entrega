@@ -205,7 +205,6 @@ main {
 }
 
 .boton-index {
-
     -o-border-radius: 60px;
     -webkit-border-radius: 60px;
     -moz-border-radius: 60px;
@@ -629,6 +628,7 @@ footer .background-de-logo {
     -moz-transition: 0.98s;
     -ms-transition: 0.98s;
     transition: 0.98s;
+    border: none;
 }
 
 .boton-de-impacto:hover {

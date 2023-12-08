@@ -550,6 +550,7 @@ footer .background-de-logo {
   -moz-transition: 0.98s;
   -ms-transition: 0.98s;
   transition: 0.98s;
+  border: none;
 }
 
 .boton-de-impacto:hover {
@@ -634,7 +635,7 @@ footer .background-de-logo {
     width: 100%;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 550px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .gran-seccion {
     border-right: none;
   }
